@@ -26,14 +26,8 @@ Portfolio is licensed under the MIT License - see the [LICENSE.TXT](LICENSE.TXT)
 
 ## 🔗 Links
 
-[![github](https://img.shields.io/badge/Portfolio-blue?style=for-the-badge)](https://swapnilghone.github.io/portfolio/)
+[![github](https://img.shields.io/badge/Portfolio-blue?style=for-the-badge)](https://swapnilghone.github.io)
 
 [![github](https://img.shields.io/badge/github-333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swapnilghone)
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/swapnil-ghone/)
-
-## Contributing
-
-Contributions are always welcome!
-
-Please feel free to fork the repository and submit pull requests.

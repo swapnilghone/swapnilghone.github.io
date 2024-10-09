@@ -50,9 +50,34 @@
         "ratings": 60
     },
     {
+        "key": "mongodb",
+        "name": "MONGODB",
+        "ratings": 50
+    },
+    {
+        "key": "nodejs",
+        "name": "NODEJS",
+        "ratings": 40
+    },
+    {
+        "key": "npm",
+        "name": "NPM",
+        "ratings": 80
+    },
+    {
+        "key": "express",
+        "name": "EXPRESS",
+        "ratings": 50
+    },
+    {
         "key": "git",
         "name": "GIT",
         "ratings": 70
+    },
+    {
+        "key": "mern",
+        "name": "MERN STACK",
+        "ratings": 60
     },
     {
         "key": "bootstrap",
@@ -64,16 +89,7 @@
         "name": "COMPOSER",
         "ratings": 80
     },
-    {
-        "key": "node",
-        "name": "NODE",
-        "ratings": 40
-    },
-    {
-        "key": "npm",
-        "name": "NPM",
-        "ratings": 80
-    },
+    
     {
         "key": "docer",
         "name": "DOCKER",

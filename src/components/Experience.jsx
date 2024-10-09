@@ -25,7 +25,7 @@ const Experience = () => {
                                     <div className="company-experience">
                                         <div className="experience-item">
                                             <h4>Technical Lead</h4>
-                                            <h3>Mar 2022 - June 2024 (2 years 4 months)</h3>
+                                            <h3>Mar 2022 - Aug 2024 (2 years 6 months)</h3>
                                             <ul>
                                                 <li>Led the development and maintenance of the company's website</li>
                                                 <li>Integrate with Product manager for requirment gathering and implimentation of new features</li>

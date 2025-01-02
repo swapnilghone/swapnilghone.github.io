@@ -55,6 +55,11 @@
         "ratings": 50
     },
     {
+        "key": "typescript",
+        "name": "TYPESCRIPT",
+        "ratings": 50
+    },
+    {
         "key": "nodejs",
         "name": "NODEJS",
         "ratings": 40
@@ -93,6 +98,11 @@
     {
         "key": "docer",
         "name": "DOCKER",
+        "ratings": 70
+    },
+    {
+        "key": "redis",
+        "name": "REDIS",
         "ratings": 70
     },
     {

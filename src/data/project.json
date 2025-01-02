@@ -7,17 +7,17 @@
         "link": "https://renovaworldwide.com/",
         "image": "projects/renova.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql, Cloudflare"
+        "techstack": "PHP, WordPress, WooCommerce, Gutenberg Blocks, Elementor, Cloudflare, Hubspot, Redis, PHPUnit"
     },
     {
         "key": "gizmogul",
         "name": "Gizmogul",
         "description": "Gizmogul is a marketplace where users can sell their refurbished cell phones.It empowers users to effortlessly sell their devices by guiding them through a user-friendly multistep wizard.",
-        "role": "As the Project Manager, I played a pivotal role in overseeing the development of the MLM (Multi-Level Marketing) system and the creation of affiliate portals.",
+        "role": "As Project Manager, I led the development of a custom vendor module, ensuring seamless integration and scalability for Gizmogul's marketplace. I collaborated with cross-functional teams to design a user-friendly multistep wizard, simplifying the device-selling process for users.",
         "link": "https://gizmogul.com/",
         "image": "projects/gizmogul.png",
         "tech": "laravel",
-        "techstack": "PHP, Laravel, MySql"
+        "techstack": "PHP, Laravel, Mysql, Redis, jQuery, PHPUnit"
     },
     {
         "key": "urban-abode",
@@ -27,17 +27,17 @@
         "link": "https://www.urbanabode.com.au/",
         "image": "projects/urbanabode.png",
         "tech": "react",
-        "techstack": "JavaScript, ReactJs, Bootstrap"
+        "techstack": "ReactJS, Vite, Bootstrap, REST API"
     },
     {
         "key": "renova-healthpro",
         "name": "Renova HealthPro",
-        "description": "Renova Portal for HealthPro representatives where they can place bulk orders and get additional discounts",
-        "role": "Build the site backend in Wordpress, Build the front portal in React Js",
+        "description": "Healthpro is a custom platform designed for medical representatives to manage referrals, place bulk orders, and access tailored discounts",
+        "role": "Contributed to the development of the Healthpro dashboard using ReactJS, integrating data from the WordPress API. Additionally, designed and implemented a custom order flow for Healthpro users to streamline their purchasing process.",
         "link": "https://healthpro.renovaworldwide.com/",
         "image": "projects/renova-healthpro.png",
         "tech": "react",
-        "techstack": "PHP, Wordpress, JavaScript, ReactJs, Bootstrap"
+        "techstack": "PHP, WordPress, MySql, ReactJS, REST API, JWT Auth"
     },
     {
         "key": "nimbus",
@@ -47,7 +47,7 @@
         "link": "https://nimbusPerformance.com/",
         "image": "projects/nimbus.png",
         "tech": "laravel",
-        "techstack": "PHP, Laravel, MySql"
+        "techstack": "PHP, Laravel, MySql , Paypal, NMI Payment gateway"
     },
     {
         "key": "genesis",
@@ -57,17 +57,17 @@
         "link": "https://www.wsigenesis.com/",
         "image": "projects/wsigenesis.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql"
+        "techstack": "PHP, WordPress, Genesis, Theme Development, Plugin Development, WidgetKit, Gravity Forms"
     },
     {
         "key": "webtutor",
         "name": "WebTutor",
-        "description": "E-tutoring sites which allow teachers to register and take online classes via video conferencing",
-        "role": "Worked on the teacher portal, integrated WebEx for video conferencing, and implemented PayPal integration for subscription payments",
+        "description": "E-tutoring platform enabling teachers to register and conduct online classes via video conferencing",
+        "role": "Responsible for requirement gathering, designing database schemas, developing microservices based on project requirements, and integrating Cisco Webex API to enable video meetings and chat rooms.",
         "link": "",
         "image": "projects/webtutor.png",
-        "tech": "ci",
-        "techstack": "PHP, CodeIgniter, MySql"
+        "tech": "react,node",
+        "techstack": "Nodejs, Express, ReactJS, MongoDb, Cisco Webex, Rest API, Microservices"
     },
     {
         "key": "buyeasy",
@@ -77,7 +77,7 @@
         "link": "https://buyeasy.com/",
         "image": "projects/buyeasy.png",
         "tech": "ci",
-        "techstack": "PHP, CodeIgniter, MySql"
+        "techstack": "PHP, CodeIgniter, MySql, Paypal, Docker"
     },
     {
         "key": "wowi",
@@ -87,7 +87,7 @@
         "link": "https://simplefox.io/work/wowi-theme/",
         "image": "projects/wowi-theme.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql"
+        "techstack": "PHP, WordPress, WPML, Theme Development, REST API"
     },
     {
         "key": "anfrageformular",
@@ -97,7 +97,7 @@
         "link": "https://wordpress.org/plugins/anfrageformular/",
         "image": "projects/anfrageformular.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql"
+        "techstack": "PHP, WordPress, MySql, Plugin Development"
     },
     {
         "key": "hideway-holidays",
@@ -107,7 +107,7 @@
         "link": "https://www.hideawayholidays.com.au/",
         "image": "projects/hideway.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql"
+        "techstack": "PHP, WordPress, MySql, REST API, PayPal,WordPress Multisite, PHPUnit"
     },
     {
         "key": "newsmonk",
@@ -126,7 +126,7 @@
         "role": "Full Stack Development",
         "link": "https://github.com/swapnilghone/inotebook",
         "image": "projects/inotebook.gif",
-        "tech": "react",
+        "tech": "react,node",
         "techstack": "Javascript, ReactJs, Node, Express, MongoDB, Bootstrap"
     }
 ]

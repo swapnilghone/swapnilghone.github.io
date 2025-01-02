@@ -53,6 +53,7 @@ const Portfolio = () => {
                             <li onClick={() => handleFilter('.filter-wp')} className={activeFilter == '.filter-wp' ? 'filter-active' : ''}>Wordpress</li>
                             <li onClick={() => handleFilter('.filter-laravel')} className={activeFilter == '.filter-laravel' ? 'filter-active' : ''}>Laravel</li>
                             <li onClick={() => handleFilter('.filter-ci')} className={activeFilter == '.filter-ci' ? 'filter-active' : ''}>Codeigniter</li>
+                            <li onClick={() => handleFilter('.filter-node')} className={activeFilter == '.filter-node' ? 'filter-active' : ''} >NodeJs</li>
                             <li onClick={() => handleFilter('.filter-react')} className={activeFilter == '.filter-react' ? 'filter-active' : ''} >ReactJs</li>
                         </ul>
                     </div>
@@ -62,8 +63,9 @@ const Portfolio = () => {
 
                     {
                         projects.map((project) => {
+                            let filter = project.tech.split(",").map(tech => `filter-${tech}`).join(" ");
                             return (
-                                <div className={`col-lg-4 col-md-6 portfolio-item filter-${project.tech}`} key={project.key}>
+                                <div className={`col-lg-4 col-md-6 portfolio-item ${filter}`} key={project.key}>
                                     <div className="portfolio-wrap">
                                         <div className="portfolio-image">
                                             <img src={project.image} className="img-fluid" alt="" />

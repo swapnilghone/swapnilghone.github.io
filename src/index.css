@@ -260,7 +260,7 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
   position: relative;
   color: #173b6c;
@@ -296,30 +296,22 @@ h4.heading {
   color: #173b6c;
 }
 
-.about .content ul {
+.about .container ul {
   list-style: none;
   padding: 0;
 }
 
-.about .content ul li {
+.about .container ul li {
   margin-bottom: 20px;
   display: flex;
   align-items: center;
 }
 
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
+.about .container ul i {
   font-size: 16px;
-  margin-right: 5px;
+  margin-right: 20px;
   color: #149ddd;
   line-height: 0;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------

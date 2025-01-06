@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import 'devicon';
 import skills from '../data/skills.json';
 
 const Skills = () => {
@@ -11,22 +12,31 @@ const Skills = () => {
                     <h2>Skills</h2>
                 </div>
 
-                <div className="row skills-content">
-                    {
-                        
-                        skills.map((skill)=>(
-                            <div className="col-lg-6" key={skill.name}>
-                                <div className="progress mb-2">
-                                    <span className="skill">{skill.name} <i className="val">{skill.ratings}%</i></span>
-                                    <div className="progress-bar-wrap">
-                                        <div className="progress-bar" style={{ 'width': skill.ratings+'%' }}></div>
-                                    </div>
+                {
+                    skills.map((section) => (
+                        <div className="row mb-4 skill-section" key={section.key}>
+                            <div className="col-4">
+                                <div className="skill-title">{section.type}</div>
+                            </div>
+                            <div className="col-8">
+                                <div className="skill-wrapper">
+                                    {
+                                        section.list.map((skill) => (
+                                            <div className="skill-card" key={skill.key}>
+                                                <div className="skill-item">
+                                                    <i className={skill.icon}></i>
+                                                </div>
+                                                <div className="skill-name">
+                                                    {skill.name}
+                                                </div>
+                                            </div>
+                                        ))
+                                    }
                                 </div>
                             </div>
-                        ))
-                    }
-                </div>
-
+                        </div>
+                    ))
+                }
             </div>
         </section>
     )

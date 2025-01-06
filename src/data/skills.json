@@ -1,138 +1,254 @@
 [
     {
-        "key": "html",
-        "name": "HTML",
-        "ratings": 90
+        "key": "langugaes",
+        "type":"Programming Languages",
+        "list":[
+            {
+                "key": "php",
+                "name": "PHP",
+                "icon": "devicon-php-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "javascript",
+                "name": "JavaScript",
+                "icon": "devicon-javascript-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "typescript",
+                "name": "TypeScript",
+                "icon": "devicon-typescript-plain colored",
+                "ratings": 50
+            }
+        ]
     },
     {
-        "key": "wordpress",
-        "name": "WORDPRESS",
-        "ratings": 80
+        "key": "framework",
+        "type":"Frameworks & Libraries",
+        "list":[
+            {
+                "key": "wordpress",
+                "name": "WordPress",
+                "icon": "devicon-wordpress-plain colored",
+                "ratings": 80
+            },
+            {
+                "key": "laravel",
+                "name": "Laravel",
+                "icon": "devicon-laravel-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "codeigniter",
+                "name": "CodeIgniter",
+                "icon": "devicon-codeigniter-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "nodejs",
+                "name": "NodeJS",
+                "icon": "devicon-nodejs-plain colored",
+                "ratings": 40
+            },
+            {
+                "key": "reactjs",
+                "name": "ReactJS",
+                "icon": "devicon-react-plain colored",
+                "ratings": 60
+            },
+            {
+                "key": "express",
+                "name": "Express",
+                "icon": "devicon-express-original colored",
+                "ratings": 60
+            },
+            {
+                "key": "jquery",
+                "name": "jQuery",
+                "icon": "devicon-jquery-plain colored",
+                "ratings": 80
+            }
+        ]
     },
     {
-        "key": "css",
-        "name": "CSS",
-        "ratings": 50
+        "key": "databases",
+        "type": "Databases",
+        "list": [
+            {
+                "key": "mysql",
+                "name": "MySQL",
+                "icon": "devicon-mysql-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "mongodb",
+                "name": "MongoDB",
+                "icon": "devicon-mongodb-plain colored",
+                "ratings": 50
+            }
+        ]
     },
     {
-        "key": "codeigniter",
-        "name": "CODEIGNITER",
-        "ratings": 70
+        "key": "frontend",
+        "type": "Frontend Technologies",
+        "list": [
+            {
+                "key": "html",
+                "name": "HTML",
+                "icon": "devicon-html5-plain colored",
+                "ratings": 90
+            },
+            {
+                "key": "css",
+                "name": "CSS",
+                "icon": "devicon-css3-plain colored",
+                "ratings": 50
+            },
+            {
+                "key": "bootstrap",
+                "name": "Bootstrap",
+                "icon": "devicon-bootstrap-plain colored",
+                "ratings": 50
+            },
+            {
+                "key": "jquery",
+                "name": "jQuery",
+                "icon": "devicon-jquery-plain colored",
+                "ratings": 80
+            },
+            {
+                "key": "reactjs",
+                "name": "ReactJS",
+                "icon": "devicon-react-plain colored",
+                "ratings": 60
+            }
+        ]
     },
     {
-        "key": "javascript",
-        "name": "JAVASCRIPT",
-        "ratings": 70
+        "key": "devops",
+        "type": "DevOps & Tools",
+        "list": [
+            {
+                "key": "docer",
+                "name": "Docker",
+                "icon": "devicon-docker-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "redis",
+                "name": "Redis",
+                "icon": "devicon-redis-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "amazonec2",
+                "name": "Amazon EC2",
+                "icon": "devicon-amazonwebservices-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "lambda",
+                "name": "AWS Lambda",
+                "icon": "devicon-amazonwebservices-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "s3",
+                "name": "Amazon S3",
+                "icon": "devicon-amazonwebservices-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "npm",
+                "name": "NPM",
+                "icon": "devicon-npm-original-wordmark colored",
+                "ratings": 80
+            },
+            {
+                "key": "composer",
+                "name": "Composer",
+                "icon": "devicon-composer-line colored",
+                "ratings": 80
+            },
+            {
+                "key": "git",
+                "name": "GIT",
+                "icon": "devicon-git-plain colored",
+                "ratings": 70
+            },
+            {
+                "key": "github",
+                "name": "GitHub",
+                "icon": "devicon-github-original colored",
+                "ratings": 70
+            },
+            {
+                "key": "xdebug",
+                "name": "Xdebug",
+                "icon": "fas fa-bug",
+                "ratings": 50
+            }
+        ]
     },
     {
-        "key": "laravel",
-        "name": "LARAVEL",
-        "ratings": 70
+        "key": "management",
+        "type": "Leadership & Management",
+        "list": [
+            {
+                "key": "jira",
+                "name": "Jira",
+                "icon": "devicon-jira-plain colored",
+                "ratings": 60
+            },
+            {
+                "key": "team_management",
+                "name": "Team Management",
+                "icon": "fa-solid fa-people-group",
+                "ratings": 70
+            },
+            {
+                "key": "Mentoring",
+                "name": "Mentoring",
+                "icon": "fas fa-chalkboard-teacher",
+                "ratings": 80
+            },
+            {
+                "key": "requirment_gathering",
+                "name": "Requirmen Gatherring",
+                "icon": "fas fa-list-alt",
+                "ratings": 70
+            },
+            {
+                "key": "project_estimation",
+                "name": "Project Estimation",
+                "icon": "fas fa-calculator",
+                "ratings": 80
+            },
+            {
+                "key": "project_management",
+                "name": "Project Management",
+                "icon": "fas fa-tasks",
+                "ratings": 70
+            },
+            {
+                "key": "client_collaboration",
+                "name": "Client Collaboration",
+                "icon": "fas fa-handshake",
+                "ratings": 80
+            }
+        ]
     },
     {
-        "key": "php",
-        "name": "PHP",
-        "ratings": 70
-    },
-    {
-        "key": "phpunit",
-        "name": "PHPUNIT",
-        "ratings": 60
-    },
-    {
-        "key": "mysql",
-        "name": "MYSQL",
-        "ratings": 70
-    },
-    {
-        "key": "reactjs",
-        "name": "REACTJS",
-        "ratings": 60
-    },
-    {
-        "key": "mongodb",
-        "name": "MONGODB",
-        "ratings": 50
-    },
-    {
-        "key": "typescript",
-        "name": "TYPESCRIPT",
-        "ratings": 50
-    },
-    {
-        "key": "nodejs",
-        "name": "NODEJS",
-        "ratings": 40
-    },
-    {
-        "key": "npm",
-        "name": "NPM",
-        "ratings": 80
-    },
-    {
-        "key": "express",
-        "name": "EXPRESS",
-        "ratings": 50
-    },
-    {
-        "key": "git",
-        "name": "GIT",
-        "ratings": 70
-    },
-    {
-        "key": "mern",
-        "name": "MERN STACK",
-        "ratings": 60
-    },
-    {
-        "key": "bootstrap",
-        "name": "BOOTSTRAP",
-        "ratings": 50
-    },
-    {
-        "key": "composer",
-        "name": "COMPOSER",
-        "ratings": 80
-    },
-    
-    {
-        "key": "docer",
-        "name": "DOCKER",
-        "ratings": 70
-    },
-    {
-        "key": "redis",
-        "name": "REDIS",
-        "ratings": 70
-    },
-    {
-        "key": "jira",
-        "name": "JIRA",
-        "ratings": 60
-    },
-    {
-        "key": "xdebug",
-        "name": "XDEBUG",
-        "ratings": 50
-    },
-    {
-        "key": "project_management",
-        "name": "PROJECT MANAGEMENT",
-        "ratings": 70
-    },
-    {
-        "key": "requirment_gathering",
-        "name": "REQUIREMENT GATHERING",
-        "ratings": 70
-    },
-    {
-        "key": "client_communication",
-        "name": "CLIENT COMMUNICATION",
-        "ratings": 80
-    },
-    {
-        "key": "project_estimation",
-        "name": "PROJECT ESTIMATIONS",
-        "ratings": 80
+        "key": "testing",
+        "type": "QA Testing",
+        "list": [
+            {
+                "key": "phpunit",
+                "name": "PHPunit",
+                "icon": "devicon-php-plain colored",
+                "ratings": 60
+            }
+        ]
     }
 ]

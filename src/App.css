@@ -91,3 +91,57 @@
     color: #173b6c;
     margin-bottom: 20px;
 }
+.skill-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #173b6c;
+}
+.skill-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.skill-card {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    flex: 0 0 20%;
+    max-width: 20%;
+    cursor: pointer;
+}
+.skill-card:hover .skill-item{
+    transform: rotateY(180deg);
+}
+.skill-section{
+    border-bottom: 1px solid #d8d8d8
+}
+.skill-section:last-child{
+    border: none;
+}
+.skill-item {
+    height: 60px;
+}
+.skill-item i {
+    font-size: 50px;
+}
+i.fa-people-group{
+    color: #FF5722;
+}
+i.fa-chalkboard-teacher{
+    color: #4CAF50;
+}
+i.fa-list-alt{
+    color: #2196F3;
+}
+i.fa-calculator{
+    color: #FFC107;
+}
+i.fa-tasks{
+    color: #673AB7;
+}
+i.fa-handshake{
+    color: #FF5722;
+}
+
+

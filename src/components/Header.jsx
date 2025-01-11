@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import profileImage from '../assets/profile.png';
+import avatartImage from '../assets/avatar.png';
 
 const Header = ({ activeSection }) => {
 
@@ -29,7 +30,11 @@ const Header = ({ activeSection }) => {
                 <div className="d-flex flex-column">
 
                     <div className="profile">
-                        <img src={profileImage} alt="" className="img-fluid rounded-circle" />
+                        <div className="image-wrapper">
+
+                        <img src={profileImage} alt="" className="profile-img img-fluid rounded-circle front" />
+                        <img src={avatartImage} alt="" className="avatar-img img-fluid rounded-circle back" />
+                        </div>
                         <h1 className="text-light"><a href="index.html">Swapnil Ghone</a></h1>
                         <div className="social-links mt-3 text-center">
                             <a href="https://www.linkedin.com/in/swapnil-ghone/" target="_blank" className="linkedin"><i className="fa-brands fa-linkedin-in"></i></a>

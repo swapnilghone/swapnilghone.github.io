@@ -145,3 +145,13 @@ i.fa-handshake{
 }
 
 
+@media(max-width: 767px) {
+    .skill-wrapper {
+        justify-content: flex-start;
+    }
+    .skill-card {
+        flex: 0 0 25%;
+        max-width: 25%;
+        font-size: 14px;
+    }
+}

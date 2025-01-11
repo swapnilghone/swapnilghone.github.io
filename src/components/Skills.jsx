@@ -15,10 +15,10 @@ const Skills = () => {
                 {
                     skills.map((section) => (
                         <div className="row mb-4 skill-section" key={section.key}>
-                            <div className="col-4">
+                            <div className="col-md-4 mb-4 mb-md-0">
                                 <div className="skill-title">{section.type}</div>
                             </div>
-                            <div className="col-8">
+                            <div className="col-md-8">
                                 <div className="skill-wrapper">
                                     {
                                         section.list.map((skill) => (

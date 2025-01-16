@@ -33,7 +33,7 @@ const Experience = () => {
                                             </ul>
                                         </div>
                                         <div className="experience-item">
-                                            <h4>Senior PHP Developer</h4>
+                                            <h4>Senior Web Developer</h4>
                                             <h3>Feb 2021 - Dec 2022 (1 year 11 month)</h3>
                                             <ul>
                                                 <li>Project setup in Wordpress</li>

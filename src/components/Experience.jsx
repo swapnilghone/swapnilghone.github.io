@@ -59,7 +59,7 @@ const Experience = () => {
                                     </div>
                                     <div className="company-experience">
                                         <div className="experience-item single-item">
-                                            <h4>Senior PHP Developer</h4>
+                                            <h4>Senior Web Developer</h4>
                                             <h3>Jan 2020 - Jan 2021 (1 year 1 month)</h3>
                                             <ul>
                                                 <li>Worked on multiple projects in different frameworks like WordPress, Codeigniter, Laravel and ReactJs.</li>
